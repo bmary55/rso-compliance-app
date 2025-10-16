@@ -186,7 +186,7 @@ export default function QCCalibratorModule() {
               />
             </div>
 
-            <Button type="submit" className="bg-blue-600 hover:bg-blue-700">
+            <Button type="submit" className="bg-[#1a2332] hover:bg-[#0f1419]">
               Submit QC Record
             </Button>
           </form>

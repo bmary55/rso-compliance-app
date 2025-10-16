@@ -220,7 +220,7 @@ export default function SealedSourceModule() {
               />
             </div>
 
-            <Button type="submit" className="bg-blue-600 hover:bg-blue-700">
+            <Button type="submit" className="bg-[#1a2332] hover:bg-[#0f1419]">
               Add to Inventory
             </Button>
           </form>

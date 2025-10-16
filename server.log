@@ -173,3 +173,12 @@ Sample data already exists
  GET /api/patients 200 in 296ms
  GET /api/compliance/daily-surveys 200 in 318ms
  GET /api/compliance/daily-surveys 200 in 267ms
+ GET /api/compliance/sealed-source 200 in 280ms
+ GET /api/compliance/sealed-source 200 in 267ms
+ GET /api/compliance/tracer-checkout 200 in 298ms
+ GET /api/compliance/tracer-checkout 200 in 263ms
+ GET /api/compliance/qc-calibrator 200 in 282ms
+ GET /api/compliance/qc-calibrator 200 in 264ms
+ ✓ Compiled in 317ms
+ ✓ Compiled in 234ms
+ ✓ Compiled in 290ms
