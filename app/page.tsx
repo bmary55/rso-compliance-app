@@ -43,9 +43,9 @@ export default function Home() {
 
       <main className="container mx-auto px-6 py-8">
         <Tabs defaultValue="dose-ordering" className="w-full">
-          <TabsList className="grid w-full max-w-md grid-cols-2 mb-8 h-auto gap-2 p-2 bg-gray-100 rounded-lg">
-            <TabsTrigger value="dose-ordering" className="text-base font-bold py-3 px-2 rounded-md data-[state=active]:bg-[#1a2332] data-[state=active]:text-white data-[state=inactive]:bg-white data-[state=inactive]:text-black data-[state=inactive]:border-2 data-[state=inactive]:border-gray-300">Dose Ordering</TabsTrigger>
-            <TabsTrigger value="rso-compliance" className="text-base font-bold py-3 px-2 rounded-md data-[state=active]:bg-[#1a2332] data-[state=active]:text-white data-[state=inactive]:bg-white data-[state=inactive]:text-black data-[state=inactive]:border-2 data-[state=inactive]:border-gray-300">RSO Compliance</TabsTrigger>
+          <TabsList className="grid w-full max-w-md grid-cols-2 mb-8">
+            <TabsTrigger value="dose-ordering">Dose Ordering</TabsTrigger>
+            <TabsTrigger value="rso-compliance">RSO Compliance</TabsTrigger>
           </TabsList>
 
           <TabsContent value="dose-ordering">

@@ -225,3 +225,38 @@ Sample data already exists
  GET /api/patients 200 in 293ms
  GET /api/patients 200 in 266ms
  ✓ Compiled in 268ms
+ GET / 200 in 625ms
+Database initialized successfully
+Sample data already exists
+ POST /api/init-db 200 in 286ms
+ GET /api/patients 200 in 301ms
+ GET /api/patients 200 in 276ms
+ GET /api/compliance/daily-surveys 200 in 296ms
+ GET /api/compliance/daily-surveys 200 in 272ms
+ GET /api/compliance/sealed-source 200 in 280ms
+ GET /api/compliance/sealed-source 200 in 274ms
+ GET /api/compliance/tracer-checkout 200 in 295ms
+ GET /api/compliance/tracer-checkout 200 in 272ms
+ GET /api/compliance/qc-calibrator 200 in 272ms
+ GET /api/compliance/qc-calibrator 200 in 263ms
+ GET /api/compliance/dosimeter-tracker 200 in 278ms
+ GET /api/compliance/dosimeter-tracker 200 in 263ms
+ GET / 200 in 126ms
+Database initialized successfully
+Sample data already exists
+ POST /api/init-db 200 in 288ms
+ GET /api/patients 200 in 265ms
+ GET /api/patients 200 in 266ms
+ GET /api/compliance/daily-surveys 200 in 261ms
+ GET /api/compliance/daily-surveys 200 in 267ms
+ GET /api/compliance/dosimeter-tracker 200 in 258ms
+ GET /api/compliance/dosimeter-tracker 200 in 266ms
+ GET /api/patients 200 in 262ms
+ GET /api/patients 200 in 269ms
+ GET /api/compliance/daily-surveys 200 in 281ms
+ GET /api/compliance/daily-surveys 200 in 264ms
+ GET /api/patients 200 in 259ms
+ GET /api/patients 200 in 261ms
+ GET /api/compliance/daily-surveys 200 in 272ms
+ GET /api/compliance/daily-surveys 200 in 266ms
+ ✓ Compiled in 301ms
