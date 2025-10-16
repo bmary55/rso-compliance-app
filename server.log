@@ -260,3 +260,29 @@ Sample data already exists
  GET /api/compliance/daily-surveys 200 in 272ms
  GET /api/compliance/daily-surveys 200 in 266ms
  ✓ Compiled in 301ms
+ GET / 200 in 634ms
+Database initialized successfully
+Sample data already exists
+ POST /api/init-db 200 in 284ms
+ GET /api/patients 200 in 285ms
+ GET /api/patients 200 in 269ms
+ GET /api/compliance/daily-surveys 200 in 273ms
+ GET /api/compliance/daily-surveys 200 in 289ms
+ GET /api/compliance/sealed-source 200 in 278ms
+ GET /api/compliance/sealed-source 200 in 292ms
+ GET /api/patients 200 in 281ms
+ GET /api/patients 200 in 283ms
+ GET / 200 in 145ms
+Database initialized successfully
+Sample data already exists
+ POST /api/init-db 200 in 274ms
+ GET /api/patients 200 in 263ms
+ GET /api/patients 200 in 261ms
+ GET /api/compliance/daily-surveys 200 in 263ms
+ GET /api/compliance/daily-surveys 200 in 266ms
+ GET / 200 in 122ms
+Database initialized successfully
+Sample data already exists
+ POST /api/init-db 200 in 287ms
+ GET /api/patients 200 in 262ms
+ GET /api/patients 200 in 267ms

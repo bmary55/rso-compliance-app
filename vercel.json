@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": {
+    "PGUSER": "@pguser",
+    "PGPASSWORD": "@pgpassword",
+    "PGHOST": "@pghost",
+    "PGPORT": "@pgport",
+    "PGDATABASE": "@pgdatabase"
+  }
+}
