@@ -52,13 +52,13 @@ export default function RSOComplianceSection() {
       </Card>
 
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList className="grid w-full grid-cols-6 h-auto">
-          <TabsTrigger value="daily-surveys" className="text-xs">Daily Surveys</TabsTrigger>
-          <TabsTrigger value="sealed-source" className="text-xs">Sealed Source</TabsTrigger>
-          <TabsTrigger value="tracer-checkout" className="text-xs">Tracer Checkout</TabsTrigger>
-          <TabsTrigger value="dose-patient" className="text-xs">Dose-Patient</TabsTrigger>
-          <TabsTrigger value="qc-calibrator" className="text-xs">QC Calibrator</TabsTrigger>
-          <TabsTrigger value="dosimeter" className="text-xs">Dosimeter</TabsTrigger>
+        <TabsList className="grid w-full grid-cols-6 h-auto gap-1 p-1">
+          <TabsTrigger value="daily-surveys" className="text-sm font-medium py-2">Daily Surveys</TabsTrigger>
+          <TabsTrigger value="sealed-source" className="text-sm font-medium py-2">Sealed Source</TabsTrigger>
+          <TabsTrigger value="tracer-checkout" className="text-sm font-medium py-2">Tracer Checkout</TabsTrigger>
+          <TabsTrigger value="dose-patient" className="text-sm font-medium py-2">Dose-Patient</TabsTrigger>
+          <TabsTrigger value="qc-calibrator" className="text-sm font-medium py-2">QC Calibrator</TabsTrigger>
+          <TabsTrigger value="dosimeter" className="text-sm font-medium py-2">Dosimeter</TabsTrigger>
         </TabsList>
 
         <TabsContent value="daily-surveys">
