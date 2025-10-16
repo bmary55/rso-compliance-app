@@ -152,3 +152,24 @@ Sample data already exists
  GET /api/compliance/daily-surveys 200 in 272ms
  GET /api/compliance/sealed-source 200 in 275ms
  GET /api/compliance/sealed-source 200 in 267ms
+ GET /api/compliance/tracer-checkout 200 in 279ms
+ GET /api/compliance/tracer-checkout 200 in 261ms
+ GET / 200 in 132ms
+Database initialized successfully
+Sample data already exists
+ POST /api/init-db 200 in 281ms
+ GET /api/patients 200 in 268ms
+ GET /api/patients 200 in 260ms
+ GET /api/compliance/daily-surveys 200 in 262ms
+ GET /api/compliance/daily-surveys 200 in 257ms
+ GET /api/compliance/sealed-source 200 in 263ms
+ GET /api/compliance/sealed-source 200 in 261ms
+ ✓ Compiled in 313ms
+ GET / 200 in 367ms
+Database initialized successfully
+Sample data already exists
+ POST /api/init-db 200 in 291ms
+ GET /api/patients 200 in 264ms
+ GET /api/patients 200 in 296ms
+ GET /api/compliance/daily-surveys 200 in 318ms
+ GET /api/compliance/daily-surveys 200 in 267ms
